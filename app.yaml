@@ -1,5 +1,5 @@
 application: aanassr-ms
-version: gotest2
+version: gotest3
 runtime: go
 api_version: go1
 threadsafe: true
