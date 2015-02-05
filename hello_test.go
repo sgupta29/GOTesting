@@ -12,8 +12,9 @@ func init() {
 
 func handler(w http.ResponseWriter, r *http.Request) {
     fmt.Fprint(w, "Hello, world12!")
-    testmodle
+    testmodle();
 }
 
 func testmodle(t *testing.T) {
-        fmt.Fprint(w,"TestSuccess")
+        fmt.Fprint("TestSuccess")
+	}
